@@ -51,7 +51,7 @@ The extended context window is game-changing for analysing long documents or lar
 - Native multimodal design (text, image, audio, video, and code)  
 - Deep integration with Google Workspace (Docs, Gmail, Maps, YouTube)  
 - Context window up to 2 million tokens (experimental)  
-- Real-time web data access via Google Search  
+- Real time web data access via Google Search  
 - Gemini Nano runs locally on Android devices  
 
 **Why it matters:**  
@@ -118,7 +118,7 @@ A strong middle ground between open-source flexibility and enterprise-grade reli
 Exclusive to X Premium+ subscribers.  
 
 **Why it matters:**  
-Integrates real-time data directly into a model — rare in the current LLM landscape.  
+Integrates real time data directly into a model — rare in the current LLM landscape.  
 
 **My opinion:**  
 An interesting experiment in social integration, though limited in scope and reliability.
@@ -131,7 +131,7 @@ An interesting experiment in social integration, though limited in scope and rel
 
 **Key features:**
 - Built as an “answer engine” rather than a chatbot  
-- Real-time search and citation system  
+- Real time search and citation system  
 - “Copilot” mode for iterative queries  
 - Academic and research-focused  
 
@@ -139,7 +139,7 @@ An interesting experiment in social integration, though limited in scope and rel
 By citing every answer, Perplexity directly addresses the issue of hallucinations and misinformation.
 
 **My opinion:**  
-Excellent for research tasks and fact-checking, less flexible for creative use.
+Excellent for research tasks and fact checking, less flexible for creative use.
 
 ---
 
@@ -150,7 +150,7 @@ Excellent for research tasks and fact-checking, less flexible for creative use.
 **Key features:**
 - Mixture of Experts (MoE) architecture  
 - Trained efficiently using lower-cost hardware (~$6 million total)  
-- Open-source with strong mathematical and coding performance  
+- Open source with strong mathematical and coding performance  
 - Innovative multi-head latent attention mechanism  
 
 **Why it matters:**  
@@ -173,11 +173,11 @@ Below is a structured list of key terms drawn from the research document.
 - Tokens / Tokenization  
 - Parameters  
 - Training Data  
-- Pre-Training  
-- Fine-Tuning  
+- Pre Training  
+- Fine Tuning  
 - Instruction Fine-Tuning  
-- Domain Fine-Tuning  
-- Safety Fine-Tuning  
+- Domain Fine Tuning  
+- Safety Fine Tuning  
 - Reinforcement Learning from Human Feedback (RLHF)
 
 ---
@@ -186,8 +186,8 @@ Below is a structured list of key terms drawn from the research document.
 - Context Window  
 - Knowledge Cut-off  
 - Emergent Behaviour  
-- Zero-Shot Learning  
-- Few-Shot Learning  
+- Zero Shot Learning  
+- Few Shot Learning  
 - Hallucinations
 
 ---
@@ -204,7 +204,7 @@ Below is a structured list of key terms drawn from the research document.
 ---
 
 ### Technical and Industry Terms
-- Open-Source vs Closed-Source  
+- Open Source vs Closed Source  
 - Model Weights  
 - Retrieval-Augmented Generation (RAG)  
 - Latency  
@@ -217,27 +217,26 @@ Below is a structured list of key terms drawn from the research document.
 - Slop  
 - Prompt Injection  
 - Model Distillation  
-- Fine-Grained Evaluation
+- Fine Grained Evaluation
 
 ---
 
 ## Resources I Found Particularly Useful
 
 ### "[1hr Talk] Intro to Large Language Models" — Andrej Karpathy  
-**Why useful:** Explains the inner workings of LLMs, from parameters to prediction.  
-**Key takeaway:** LLMs are measurable but not fully interpretable — we can adjust performance, but not fully understand how knowledge is encoded.  
+**Why useful:** Explains the inner workings of LLMs, from parameters to prediction.    
 **Most engaging insight:** How 10 TB of internet text is compressed into 140 GB of parameters using 6,000 GPUs.
 
 ---
 
 ### "How to Choose Large Language Models: A Developer’s Guide to LLMs"  
 **Why useful:** Clear overview of when to use which model.  
-**Key takeaway:** Each model excels in different areas — creativity, cost, speed, or accuracy.
+**Key takeaway:** Each model excels in different areas: creativity, cost, speed, or accuracy.
 
 ---
 
 ### "How DeepSeek Rewrote the Transformer" - Welch Labs 
-**Why useful:** Provides an in-depth explanation of DeepSeek’s architectural innovations and how they modify the transformer structure.  
+**Why useful:** Provides an in depth explanation of DeepSeek’s architectural innovations and how they modify the transformer structure.  
 **My reflection:** I found this video challenging to follow, especially the discussion around attention patterns, which I didn’t fully understand.  
 However, it was fascinating to see how DeepSeek’s approach differs from standard transformer models, offering insight into future directions in model design.
 Welch Labs is a really good channel, but discusses quite complex ideas that I'm struggling to understand at the minute. 
@@ -246,8 +245,8 @@ Welch Labs is a really good channel, but discusses quite complex ideas that I'm 
 
 ### "These Numbers Can Make AI Dangerous" — Welch Labs 
 **Why useful:** Introduces the concept of subliminal learning, where hidden traits or biases can unintentionally transfer from one model to another during knowledge distillation.  
-**Key takeaway:** Even harmless-looking outputs (like random number sequences) can secretly pass on internal behaviours or biases from a teacher model to a student model.  
-**My reflection:** I found this video thought-provoking — it highlights how little we truly understand about what models encode internally, and the potential safety risks in model compression and reuse.
+**Key takeaway:** Even harmless looking outputs (like random number sequences) can secretly pass on internal behaviours or biases from a teacher model to a student model.  
+**My reflection:** I found this video thought provoking — it highlights how little we truly understand about what models encode internally and the potential safety risks in model compression and reuse.
 
 
 
