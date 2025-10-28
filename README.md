@@ -234,6 +234,22 @@ Below is a structured list of key terms drawn from the research document.
 **Why useful:** Clear overview of when to use which model.  
 **Key takeaway:** Each model excels in different areas — creativity, cost, speed, or accuracy.
 
+---
+
+### "How DeepSeek Rewrote the Transformer" - Welch Labs 
+**Why useful:** Provides an in-depth explanation of DeepSeek’s architectural innovations and how they modify the transformer structure.  
+**My reflection:** I found this video challenging to follow, especially the discussion around attention patterns, which I didn’t fully understand.  
+However, it was fascinating to see how DeepSeek’s approach differs from standard transformer models, offering insight into future directions in model design.
+Welch Labs is a really good channel, but discusses quite complex ideas that I'm struggling to understand at the minute. 
+
+---
+
+### "These Numbers Can Make AI Dangerous" — Welch Labs 
+**Why useful:** Introduces the concept of subliminal learning, where hidden traits or biases can unintentionally transfer from one model to another during knowledge distillation.  
+**Key takeaway:** Even harmless-looking outputs (like random number sequences) can secretly pass on internal behaviours or biases from a teacher model to a student model.  
+**My reflection:** I found this video thought-provoking — it highlights how little we truly understand about what models encode internally, and the potential safety risks in model compression and reuse.
+
+
 
 
 
