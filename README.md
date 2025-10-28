@@ -224,7 +224,7 @@ Below is a structured list of key terms drawn from the research document.
 ## Resources I Found Particularly Useful
 
 ### "[1hr Talk] Intro to Large Language Models" — Andrej Karpathy  
-**Why useful:** Explains the inner workings of LLMs, from parameters to prediction.    
+**Why useful:** Explains the inner workings of LLMs, from parameters to prediction. Andrej's channel is really good and has some great videos that go in depth on LLMs.   
 **Most engaging insight:** How 10 TB of internet text is compressed into 140 GB of parameters using 6,000 GPUs.
 
 ---
